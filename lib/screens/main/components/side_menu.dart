@@ -16,6 +16,11 @@ class SideMenu extends StatelessWidget {
               child: Image.asset('assets/images/logo.png'),
             ),
             DrawerListTitle(
+              title: 'Dashboard',
+              svgSrc: 'assets/icons/menu_dashboard.svg',
+              onTap: () {},
+            ),
+            DrawerListTitle(
               title: 'Transaction',
               svgSrc: 'assets/icons/menu_tran.svg',
               onTap: () {},
