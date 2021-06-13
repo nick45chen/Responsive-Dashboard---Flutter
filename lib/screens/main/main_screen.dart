@@ -1,3 +1,4 @@
+import 'package:admin/responsive.dart';
 import 'package:admin/screens/dashboard/dashboard_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -11,10 +12,12 @@ class MainScreen extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
-              flex: 1,
-              child: SideMenu(),
-            ),
+            /// We want this side menu only for large screen
+            if (Responsive.isDesktop(context))
+              Expanded(
+                flex: 1,
+                child: SideMenu(),
+              ),
             // It takes 5/6 part of screen
             Expanded(
               flex: 5,
