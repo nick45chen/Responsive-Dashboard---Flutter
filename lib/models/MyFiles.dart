@@ -15,7 +15,7 @@ class CloudStorageInfo {
       this.color});
 }
 
-List demoMyFiels = [
+List demoMyFiles = [
   CloudStorageInfo(
     title: "Documents",
     numOfFiels: 1328,
