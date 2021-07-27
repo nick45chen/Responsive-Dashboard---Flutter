@@ -1,6 +1,4 @@
-# admin
-
-A new Flutter project.
+A simple project practice from [Flutter-Responsive-Admin-Panel-or-Dashboard](https://github.com/abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard)
 
 ## Getting Started
 
